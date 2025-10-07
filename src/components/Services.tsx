@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Server, GitBranch, Container, Shield, Gauge, Lock, Box, Eye, FileCode, Network } from "lucide-react";
+import { Cloud, Server, GitBranch, Container, Shield, Gauge, Lock, Box, Eye, FileCode, Network, ShieldCheck } from "lucide-react";
 
 const services = [
   {
@@ -18,9 +18,19 @@ const services = [
     description: "Container orchestration and management for scalable microservices architecture.",
   },
   {
+    icon: Container,
+    title: "Containerization",
+    description: "Docker containerization for consistent development and deployment environments.",
+  },
+  {
     icon: Server,
     title: "Infrastructure as Code",
     description: "Terraform, Ansible, and CloudFormation for automated provisioning.",
+  },
+  {
+    icon: ShieldCheck,
+    title: "Security Compliance",
+    description: "Implement security standards and compliance requirements across infrastructure.",
   },
   {
     icon: Lock,

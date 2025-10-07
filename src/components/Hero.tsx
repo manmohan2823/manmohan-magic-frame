@@ -20,14 +20,23 @@ export const Hero = () => {
               Passionate about automation, cloud infrastructure, and building scalable solutions.
               Based in India, delivering excellence in DevOps practices.
             </p>
-            <div className="flex gap-4 mb-8">
-              <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
-                <Mail className="mr-2 h-4 w-4" />
-                Contact Me
-              </Button>
-              <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
-                About Me
-              </Button>
+            <div className="flex gap-4 mb-8 flex-wrap">
+              <a href="#contact">
+                <Button className="bg-primary hover:bg-primary/90 text-primary-foreground">
+                  <Mail className="mr-2 h-4 w-4" />
+                  Contact Me
+                </Button>
+              </a>
+              <a href="/resume.pdf" download="Manmohan_Singh_Resume.pdf">
+                <Button variant="secondary" className="bg-secondary hover:bg-secondary/80">
+                  Download Resume
+                </Button>
+              </a>
+              <a href="#about">
+                <Button variant="outline" className="border-primary text-primary hover:bg-primary/10">
+                  About Me
+                </Button>
+              </a>
             </div>
             <div className="flex gap-4">
               <a href="https://www.linkedin.com/in/manmohan-singh-8a0b24186/" className="text-foreground hover:text-primary transition-colors" target="_blank" rel="noopener noreferrer">
