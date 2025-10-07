@@ -28,7 +28,7 @@ export const About = () => {
             
             <div className="grid grid-cols-2 gap-4">
               <Card className="p-4 bg-card hover:bg-card/80 transition-colors border-border">
-                <div className="text-3xl font-bold text-primary mb-2">5+</div>
+                <div className="text-3xl font-bold text-primary mb-2">5</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </Card>
               <Card className="p-4 bg-card hover:bg-card/80 transition-colors border-border">

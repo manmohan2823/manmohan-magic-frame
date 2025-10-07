@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Cloud, Server, GitBranch, Container, Shield, Gauge } from "lucide-react";
+import { Cloud, Server, GitBranch, Container, Shield, Gauge, Lock, Box, Eye, FileCode, Network } from "lucide-react";
 
 const services = [
   {
@@ -13,9 +13,9 @@ const services = [
     description: "Build and optimize continuous integration and deployment workflows.",
   },
   {
-    icon: Container,
-    title: "Containerization",
-    description: "Docker and Kubernetes orchestration for containerized applications.",
+    icon: Box,
+    title: "Kubernetes",
+    description: "Container orchestration and management for scalable microservices architecture.",
   },
   {
     icon: Server,
@@ -23,14 +23,24 @@ const services = [
     description: "Terraform, Ansible, and CloudFormation for automated provisioning.",
   },
   {
-    icon: Shield,
-    title: "Security & Compliance",
-    description: "Implement security best practices and ensure compliance standards.",
+    icon: Lock,
+    title: "DevSecOps",
+    description: "Integrate security practices into DevOps workflows for secure development.",
   },
   {
-    icon: Gauge,
-    title: "Monitoring & Logging",
-    description: "Set up comprehensive monitoring and logging solutions for insights.",
+    icon: Eye,
+    title: "Application Monitoring & Observability",
+    description: "Full-stack monitoring, observability, and distributed tracing solutions.",
+  },
+  {
+    icon: FileCode,
+    title: "Scripting",
+    description: "Automation scripts using Python, Bash, and PowerShell for operational efficiency.",
+  },
+  {
+    icon: Network,
+    title: "System Design",
+    description: "Architecture design for scalable, reliable, and high-performance systems.",
   },
 ];
 

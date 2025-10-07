@@ -24,7 +24,7 @@ export const Contact = () => {
                 <Mail className="h-6 w-6 text-primary mt-1" />
                 <div>
                   <h4 className="font-semibold mb-1">Email</h4>
-                  <p className="text-muted-foreground">manmohan@example.com</p>
+                  <p className="text-muted-foreground">manmohan4tech@gmail.com</p>
                 </div>
               </Card>
               
@@ -32,7 +32,7 @@ export const Contact = () => {
                 <Phone className="h-6 w-6 text-primary mt-1" />
                 <div>
                   <h4 className="font-semibold mb-1">Phone</h4>
-                  <p className="text-muted-foreground">+91 98765 43210</p>
+                  <p className="text-muted-foreground">+91 9905467768</p>
                 </div>
               </Card>
               
